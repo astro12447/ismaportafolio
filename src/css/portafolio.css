@@ -1,0 +1,46 @@
+.Portafolio {
+  background-color: rgb(19, 19, 19);
+  margin-left: 8rem;
+  margin-right: 8rem;
+  padding: 1rem;
+}
+.Portafolio .Portafolio-items div {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(25, 24, 24);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media(max-width:1300px) {
+  .Portafolio .Portafolio-items div {
+    width: 10rem;
+    height: 10rem;
+  }
+  .flex {
+    justify-content: center;
+  }
+}
+@media(max-width:1200px){
+  .Portafolio{
+    background-color: rgb(66, 75, 75);
+  }
+  .portafolioHeader{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .Portafolio .Portafolio-items div{
+    width:  15rem;
+    height: 15rem;
+  }
+  .portafolio-title h2{
+    text-align: center;
+  }
+
+  
+}
