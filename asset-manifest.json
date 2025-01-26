@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ismaportafolio.git/static/css/main.972fd0db.css",
+    "main.js": "/ismaportafolio.git/static/js/main.5d8ca592.js",
+    "static/media/dev-image.jpg": "/ismaportafolio.git/static/media/dev-image.bcf3769f3582656355c6.jpg",
+    "static/media/__sql.jpg": "/ismaportafolio.git/static/media/__sql.a5302ac197d2de3520f0.jpg",
+    "static/media/react.jpg": "/ismaportafolio.git/static/media/react.a47ef9d87b4f7099c0aa.jpg",
+    "static/media/roboto-v32-latin-700.woff2": "/ismaportafolio.git/static/media/roboto-v32-latin-700.4535474e1cf8598695ad.woff2",
+    "static/media/roboto-v32-latin-500.woff2": "/ismaportafolio.git/static/media/roboto-v32-latin-500.7077203b1982951ecf76.woff2",
+    "static/media/roboto-v32-latin-300.woff2": "/ismaportafolio.git/static/media/roboto-v32-latin-300.b850f1ff581ea232fac9.woff2",
+    "static/media/roboto-v32-latin-900.woff2": "/ismaportafolio.git/static/media/roboto-v32-latin-900.cc6b4bed6bc5f2a13af2.woff2",
+    "static/media/css-html.jpg": "/ismaportafolio.git/static/media/css-html.b98109112b59510f15fe.jpg",
+    "static/media/java__script.jpg": "/ismaportafolio.git/static/media/java__script.75a94995f60cfd336597.jpg",
+    "static/media/type__script.jpg": "/ismaportafolio.git/static/media/type__script.618985218f93c612ea6d.jpg",
+    "static/media/__php.jpg": "/ismaportafolio.git/static/media/__php.8225f5b8263e84348396.jpg",
+    "static/media/__python.jpg": "/ismaportafolio.git/static/media/__python.a139606b25cbc91345c5.jpg",
+    "static/media/gmail.jpg": "/ismaportafolio.git/static/media/gmail.f781ff3e61f0497be6b4.jpg",
+    "index.html": "/ismaportafolio.git/index.html",
+    "main.972fd0db.css.map": "/ismaportafolio.git/static/css/main.972fd0db.css.map",
+    "main.5d8ca592.js.map": "/ismaportafolio.git/static/js/main.5d8ca592.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972fd0db.css",
+    "static/js/main.5d8ca592.js"
+  ]
+}
