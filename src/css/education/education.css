@@ -1,0 +1,22 @@
+.education .education-title{
+    background-color: rgb(14 17 22);
+    border-top: 1px solid rgb(156 152 160);
+    border-bottom: 1px solid rgb(156 152 160);
+    color: rgb(241 246 251);
+    text-transform: uppercase;
+    text-align: center;
+    padding-block: 24px;
+}
+.education-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-start: 24px;
+}
+.education .education-list-items{
+    background-color: rgb(14 17 22);
+    padding-block: 20px;
+}
+@media((width >= 90em) or (width >=50.625em)){
+    
+}

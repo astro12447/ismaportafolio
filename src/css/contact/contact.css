@@ -1,0 +1,28 @@
+.footer{
+  background-color: rgb(14 17 22);
+  padding-inline: 24px;
+  padding-block-start: 24px;
+  height: 10rem;
+}
+
+.footer img {
+  object-fit: fill;
+  width:  3rem;
+  border: 1px solid hsl(210, 56%, 96%);
+  height: 3rem;
+  border-radius: 32px;
+}
+.footer-content a{
+  display:flex;
+  flex-direction: column;
+  gap: 0.4em;
+  align-items: center;
+  color: hsl(210, 56%, 96%);
+}
+.footer-content{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+

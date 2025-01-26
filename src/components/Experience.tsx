@@ -1,31 +1,24 @@
 import React from 'react';
-import { Skills } from './Skills';
-export const Experience:React.FC = () => {
+import imagePHP from "../assets/skills/__php.jpg";
+import imagePYTHON from "../assets/skills/__python.jpg";
+import imageSQL from "../assets/skills/__sql.jpg";
+import imageCSSHTML from "../assets/skills/css-html.jpg";
+import imageJAVASCRIPT from "../assets/skills/java__script.jpg";
+import imageTYPESCRIPT from "../assets/skills/type__script.jpg";
+import imageREACT from "../assets/skills/react.jpg";
+import "../css/experience/experience.css";
+export const Experience: React.FC = () => {
     return (
-        <div className='Experience-Title'>
-            <div className='Title' style={{marginBottom:"1rem"}}>
-            <h2>
-                Мой опыт
-            </h2>
-            </div>
-            <div className='Experience-Content'>
-                <ul>
-                    <li>HTML/CSS: Уверенно владею основами HTML и CSS для создания структуры и стилизации веб-страниц.</li>
-                    <li>JavaScript/TypeScript: Знаком с базовыми концепциями JavaScript/TypeScript и использую его для добавления интерактивности на веб-сайты.</li>
-                    <li>React: Начинаю изучать React для создания динамичных и отзывчивых пользовательских интерфейсов.</li>
-                    <li>Python: Имею базовые знания Python, включая основы синтаксиса и использование библиотек для обработки данных и автоматизации задач.</li>
+        <section className='experience experience-grid-2cols'>
+                <h2 className='skill-title'>Навыки</h2>
+                <img src={imageCSSHTML} alt="css/html" className='css-html' />
+                <img src={imageJAVASCRIPT} alt="java-script" className='java-script' />
+                <img src={imageTYPESCRIPT} alt="type-script" className='type-script' />
+                <img src={imagePYTHON} alt="python" className='python' />
+                <img src={imageSQL} alt="sql" className='sql' />
+                <img src={imagePHP} alt="php" className='php' />
+                <img src={imageREACT} alt="react-frame-work" className='react-frame-work' />
+        </section>
 
-                    <li>PHP: Имею базовые знания PHP, включая создание простых веб-приложений и взаимодействие с базами данных.</li>
-
-                    <li>SQL: Знаком с основами SQL, включая создание, модификацию и запросы к базам данных.</li>
-
-                    <li>C++: Имею средний уровень знаний C++, включая работу с указателями, управление памятью</li>
-                </ul>
-            </div>
-            <div>
-            <Skills/>
-            </div>
-
-        </div>
     )
 }

@@ -1,0 +1,107 @@
+.gb-movil-2cols {
+    display: grid;
+    grid-template-columns: 4px repeat(3, calc((100% - 48px - 20px * 2) / 3)) 4px;
+    gap: 20px;
+}
+.wrapper-about{
+    padding-block: 34px;
+}
+.about-content{
+ grid-column: 2/-2;
+}
+
+.description a:hover {
+    color: hsl(270, 43%, 72%);
+}
+
+.description-hero {
+    color: aqua;
+    padding-block-start: 20px;
+}
+
+.button.contact-link {
+    text-align: center;
+    display: block;
+    border-radius: 32px;
+    text-decoration: none;
+    border: 1px solid hsl(210, 56%, 96%);
+    padding-inline: 7px;
+    padding-block: 14px;
+    margin-block: 24px;
+    background-color: rgb(14 17 22);
+    width: 200px;
+    color: hsl(210, 56%, 96%);
+    grid-column: 2/-2;
+}
+
+.description-title {
+    color: hsl(210, 56%, 96%);
+}
+
+.hero-image {
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    border: 1px solid hsl(210, 56%, 96%);
+    border-radius: 10px;
+    grid-column: 2/ -2;
+}
+
+.about-wrapper .description-hero {
+    color: hsl(270, 4%, 61%);
+}
+
+.gb-movil-2cols {
+    padding-inline: auto;
+}
+
+.wrapper-about .about-title {
+    background-color: hsl(220, 60%, 2%);
+    color: hsl(210, 56%, 96%);
+    text-transform: uppercase;
+    text-align: center;
+    border-top: 1px solid rgb(156 152 160);
+    border-bottom: 1px solid rgb(156 152 160);
+    padding-block: 10px;
+    grid-column: 1 / -1;
+}
+
+@media (width>=50.625em) {
+    /* 50.625em = 810px(si 1em = 16px) */
+    .gb-movil-2cols {
+        grid-template-columns: 4px repeat(6, calc((100% - 48px - 20px * 5) / 6)) 4px;
+    }
+
+    .hero-image{
+        object-fit:contain;
+        width:  100%;
+        height: auto;
+        grid-column: 3/7;
+    }
+
+}
+@media (width >=90em) {
+
+    /* 50.625em = 810px(si 1em = 16px) */
+    .gb-movil-2cols {
+        grid-template-columns: 4px repeat(12, calc((100% - 48px - 20px * 11) / 12)) 4px;
+        align-items: center;
+    }
+    .description-title {
+        grid-column: 2/7;
+    }
+    .wrapper-about .description-hero {
+       grid-column:  2/7;
+    }
+    .hero-image{
+        object-fit:contain;
+        width: 900px;
+        height: 400px;
+        grid-column: 9/14;
+    }
+
+    .about-content{
+        grid-column: 2/7;
+    }
+    
+}

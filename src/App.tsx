@@ -1,38 +1,47 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from './components/Home';
-import { About } from './components/About';
-import { Resume } from './components/Resume';
-import { Portafolio } from './components/Portafolio';
-import { Contact } from './components/Contact';
-import { Layout } from './components/Layout';
-import { Hotel } from './components/Hotel';
-import { EmailSender } from './components/EmailSender';
-import { ShopingCart } from './components/ShopingCart';
-import { ReactForm } from './components/ReactForm';
-import { AllProyects } from './components/AllProyects';
+import React, { useRef } from 'react';
+import { NavBarScroll } from './components/navBarScroll';
+import { Sections } from './components/sections';
 import "./app.css";
 
 export const App: React.FC = () => {
+  
+  // Crear referencias para las secciones
+  const aboutRef      = useRef<HTMLDivElement>(null);
+  const educationRef  = useRef<HTMLDivElement>(null);
+  const experienceRef = useRef<HTMLDivElement>(null);
+  const portafolioRef = useRef<HTMLDivElement>(null);
+  const contactRef    = useRef<HTMLDivElement>(null);
+  // Función para desplazarse a una sección
+  const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  // Objeto con las referencias
+  const sections = {
+    about: aboutRef,
+    education:educationRef,
+    experience:experienceRef,
+    portafolio: portafolioRef,
+    contact: contactRef,
+  };
 
   return (
-    <div className="App">
-      <Router>
-        <Layout>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/resume' element={<Resume />}></Route>
-            <Route path='/portafolio' element={<Portafolio />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='/hotel' element={<Hotel/>}></Route>
-            <Route path='/email-sender' element={<EmailSender/>}></Route>
-            <Route path='/shoping-cart' element={<ShopingCart/>}></Route>
-            <Route path='/react-form' element={<ReactForm/>}></Route>
-            <Route path='/see-all' element={<AllProyects/>}></Route>
-          </Routes>
-        </Layout>
-      </Router>
-    </div>
+      <div>
+        <NavBarScroll scrollToSection={scrollToSection} sections={sections} />
+        <Sections sections={sections} />
+      </div>
+    // <Router>
+    //   <Layout>
+    //     <Routes>
+    //       
+    //       <Route path='/about' element={<About />}></Route>
+    //       <Route path='/resume' element={<Resume />}></Route>
+    //       <Route path='/portafolio' element={<Portafolio />}></Route>
+    //     </Routes>
+    //   </Layout>
+    // </Router>
+
   );
 }
