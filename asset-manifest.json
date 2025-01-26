@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ismaportafolio.git/static/css/main.972fd0db.css",
-    "main.js": "/ismaportafolio.git/static/js/main.5d8ca592.js",
+    "main.js": "/ismaportafolio.git/static/js/main.04424775.js",
     "static/media/dev-image.jpg": "/ismaportafolio.git/static/media/dev-image.bcf3769f3582656355c6.jpg",
     "static/media/__sql.jpg": "/ismaportafolio.git/static/media/__sql.a5302ac197d2de3520f0.jpg",
     "static/media/react.jpg": "/ismaportafolio.git/static/media/react.a47ef9d87b4f7099c0aa.jpg",
@@ -17,10 +17,10 @@
     "static/media/gmail.jpg": "/ismaportafolio.git/static/media/gmail.f781ff3e61f0497be6b4.jpg",
     "index.html": "/ismaportafolio.git/index.html",
     "main.972fd0db.css.map": "/ismaportafolio.git/static/css/main.972fd0db.css.map",
-    "main.5d8ca592.js.map": "/ismaportafolio.git/static/js/main.5d8ca592.js.map"
+    "main.04424775.js.map": "/ismaportafolio.git/static/js/main.04424775.js.map"
   },
   "entrypoints": [
     "static/css/main.972fd0db.css",
-    "static/js/main.5d8ca592.js"
+    "static/js/main.04424775.js"
   ]
 }
