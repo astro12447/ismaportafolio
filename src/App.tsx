@@ -32,16 +32,5 @@ export const App: React.FC = () => {
         <NavBarScroll scrollToSection={scrollToSection} sections={sections} />
         <Sections sections={sections} />
       </div>
-    // <Router>
-    //   <Layout>
-    //     <Routes>
-    //       
-    //       <Route path='/about' element={<About />}></Route>
-    //       <Route path='/resume' element={<Resume />}></Route>
-    //       <Route path='/portafolio' element={<Portafolio />}></Route>
-    //     </Routes>
-    //   </Layout>
-    // </Router>
-
   );
 }

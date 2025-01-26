@@ -12,11 +12,11 @@ export const NavBarScroll: React.FC<navBarScroll> = ({ scrollToSection, sections
     return (
         <nav className='navBarScroll'>
             <Link to='about' className="logo-hero">Isma</Link>
-            <button className='button-about'     onClick={() => scrollToSection(sections.about)}>About</button>
-            <button className='button-contact'   onClick={() => scrollToSection(sections.education)}>Education</button>
-            <button className='button-education' onClick={() => scrollToSection(sections.experience)}>Experience</button>
-            <button className='button-experience' onClick={() => scrollToSection(sections.portafolio)}>Portafolio</button>
-            <button className='button-portafolio' onClick={() => scrollToSection(sections.contact)}>Contact</button>
+            <button className='button-about'     onClick={() => scrollToSection(sections.about)}>О чем</button>
+            <button className='button-contact'   onClick={() => scrollToSection(sections.education)}>Образование</button>
+            <button className='button-education' onClick={() => scrollToSection(sections.experience)}>Опыт</button>
+            <button className='button-experience' onClick={() => scrollToSection(sections.portafolio)}>Портфолио</button>
+            <button className='button-portafolio' onClick={() => scrollToSection(sections.contact)}>Контакт</button>
         </nav>
     )
 }
