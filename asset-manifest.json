@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/ismaportafolio/static/css/main.1acf06ae.css",
-    "main.js": "/ismaportafolio/static/js/main.52ff7227.js",
+    "main.css": "/ismaportafolio/static/css/main.524f1346.css",
+    "main.js": "/ismaportafolio/static/js/main.1c689520.js",
     "static/media/dev-image.jpg": "/ismaportafolio/static/media/dev-image.bcf3769f3582656355c6.jpg",
-    "static/media/__sql.jpg": "/ismaportafolio/static/media/__sql.a5302ac197d2de3520f0.jpg",
+    "static/media/sql.jpg": "/ismaportafolio/static/media/sql.a5302ac197d2de3520f0.jpg",
     "static/media/react.jpg": "/ismaportafolio/static/media/react.a47ef9d87b4f7099c0aa.jpg",
     "static/media/roboto-v32-latin-700.woff2": "/ismaportafolio/static/media/roboto-v32-latin-700.4535474e1cf8598695ad.woff2",
     "static/media/roboto-v32-latin-500.woff2": "/ismaportafolio/static/media/roboto-v32-latin-500.7077203b1982951ecf76.woff2",
@@ -12,15 +12,15 @@
     "static/media/css-html.jpg": "/ismaportafolio/static/media/css-html.b98109112b59510f15fe.jpg",
     "static/media/java__script.jpg": "/ismaportafolio/static/media/java__script.75a94995f60cfd336597.jpg",
     "static/media/type__script.jpg": "/ismaportafolio/static/media/type__script.618985218f93c612ea6d.jpg",
-    "static/media/__php.jpg": "/ismaportafolio/static/media/__php.8225f5b8263e84348396.jpg",
-    "static/media/__python.jpg": "/ismaportafolio/static/media/__python.a139606b25cbc91345c5.jpg",
+    "static/media/php.jpg": "/ismaportafolio/static/media/php.8225f5b8263e84348396.jpg",
+    "static/media/python.jpg": "/ismaportafolio/static/media/python.a139606b25cbc91345c5.jpg",
     "static/media/gmail.jpg": "/ismaportafolio/static/media/gmail.f781ff3e61f0497be6b4.jpg",
     "index.html": "/ismaportafolio/index.html",
-    "main.1acf06ae.css.map": "/ismaportafolio/static/css/main.1acf06ae.css.map",
-    "main.52ff7227.js.map": "/ismaportafolio/static/js/main.52ff7227.js.map"
+    "main.524f1346.css.map": "/ismaportafolio/static/css/main.524f1346.css.map",
+    "main.1c689520.js.map": "/ismaportafolio/static/js/main.1c689520.js.map"
   },
   "entrypoints": [
-    "static/css/main.1acf06ae.css",
-    "static/js/main.52ff7227.js"
+    "static/css/main.524f1346.css",
+    "static/js/main.1c689520.js"
   ]
 }
