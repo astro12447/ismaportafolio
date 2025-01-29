@@ -39,6 +39,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transform-style: preserve-3d;
+    transform: transform 0.1s ease;
+}
+.navBarScroll button:active{
+    transform: translateZ(20px) scale(0.98);
 }
 .logo-hero {
     background-color: hsl(220, 60%, 2%);

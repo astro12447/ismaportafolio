@@ -21,7 +21,7 @@
 .portafolio .project-item {
     grid-column: 2/5;
 }
-.portafolio .project-item button{
+.project-item button{
     text-align: center;
     display: block;
     border-radius: 5px;
@@ -33,7 +33,10 @@
     color: hsl(210, 56%, 96%);
     background-color: rgb(14 17 22);
 }
-
+.portafolio .project-item .Github{
+   border:  1px solid aqua;
+   cursor: pointer;
+}
 .project-item .project-utils {
     border-radius: 14px;
     display: flex;

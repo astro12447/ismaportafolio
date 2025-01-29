@@ -17,7 +17,7 @@ export const Portafolio: React.FC = () => {
                     </p>
                     <div className='project-utils'>
                         <button style={{ backgroundColor: "rgb(14 17 22)" }}>Project Name</button>
-                        <button style={{ backgroundColor: "rgb(14 17 22)" }}>Github</button>
+                        <button style={{ backgroundColor: "rgb(14 17 22)" }} className='Github'>Github</button>
                         <button  >HTML</button>
                         <button  >TypeScript</button>
                         <button  >React</button>
@@ -40,7 +40,7 @@ export const Portafolio: React.FC = () => {
                     <div className='project-utils'>
                      
                             <button style={{ backgroundColor: "rgb(14 17 22)" }}>Project Name</button>
-                            <button style={{ backgroundColor: "rgb(14 17 22)" }}>Github</button>
+                            <button style={{ backgroundColor: "rgb(14 17 22)" }} className='Github'>Github</button>
                             <button  >HTML</button>
                             <button  >TypeScript</button>
                             <button  >React</button>
@@ -60,8 +60,8 @@ export const Portafolio: React.FC = () => {
                         Ullam nobis tempora sed esse odit doloremque veritatis perspiciatis, molestias iusto, odio inventore quisquam quibusdam. Sint molestias maiores dolor veritatis mollitia atque magnam error maxime officiis, minus adipisci asperiores dignissimos!
                     </p>
                     <div className='project-utils'>
-                            <button style={{ backgroundColor: "rgb(14 17 22)" }}>Project Name</button>
-                            <button style={{ backgroundColor: "rgb(14 17 22)" }}>Github</button>
+                            <button style={{ backgroundColor: "rgb(14 17 22)" }} >Project Name</button>
+                            <button style={{ backgroundColor: "rgb(14 17 22)" }} className='Github'>Github</button>
                             <button  >HTML</button>
                             <button  >TypeScript</button>
                             <button  >React</button>
