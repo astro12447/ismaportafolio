@@ -1,8 +1,8 @@
 import React from 'react';
-import reactImage from "../assets/skills/react.jpg"
 import "../css/portafolio/portafolio.css";
 import appImage from "../assets/app-image.png";
 import hotelImage from "../assets/hotel.png"
+import shopImage from "../assets/1shoppingCart.png";
 export const Portafolio: React.FC = () => {
     const Gotolink = (link: string) => {
         window.location.href = link;
@@ -37,11 +37,11 @@ export const Portafolio: React.FC = () => {
                 <img src={hotelImage} alt="" />
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <p className='project-description'>
-                        Программа для бронирования отелей, разработанная с использованием React и TypeScript, предоставляет пользователю удобный интерфейс для поиска и 
-                        бронирования номеров. Приложение позволяет пользователям выбрать даты заезда и выезда, просматривать доступные номера, а также ознакомиться с 
-                        их ценами и характеристиками. Интуитивно понятный интерфейс способствует легкости в использовании, а типизация данных с помощью TypeScript гарантирует 
+                        Программа для бронирования отелей, разработанная с использованием React и TypeScript, предоставляет пользователю удобный интерфейс для поиска и
+                        бронирования номеров. Приложение позволяет пользователям выбрать даты заезда и выезда, просматривать доступные номера, а также ознакомиться с
+                        их ценами и характеристиками. Интуитивно понятный интерфейс способствует легкости в использовании, а типизация данных с помощью TypeScript гарантирует
                         надежность и предсказуемость работы программы.
-                        Основные функции программы включают , возможность бронирования. Также, пользователи могут просматривать подробную информацию о каждом номере, 
+                        Основные функции программы включают , возможность бронирования. Также, пользователи могут просматривать подробную информацию о каждом номере,
                         включая фото. Все данные, такие как доступность номеров и информация о ценах, обновляются в реальном времени.
                     </p>
                     <div className='project-utils'>
@@ -57,22 +57,29 @@ export const Portafolio: React.FC = () => {
                 </div>
             </div>
             <div className='project-item  project-item3'>
-                <img src={reactImage} alt="" />
+                <img src={shopImage} alt="" />
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <p className='project-description'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In ad enim, id illum alias aperiam! Hic consequatur maiores, fuga dolorum quia neque eius eaque eos veritatis quibusdam amet similique ab!
-                        Natus nesciunt animi autem molestiae repellendus? Doloremque odio velit, quia quasi corporis suscipit rerum animi voluptas deserunt fuga deleniti minima similique quae inventore! Minima necessitatibus saepe incidunt fugiat consequatur voluptates!
-                        Cupiditate nesciunt esse error ipsum itaque accusamus laboriosam modi, eos non! Voluptatibus a at labore, magnam ab autem, accusantium vel harum aspernatur sequi consequatur maiores odio. Dolore, esse. Quam, ipsam!
-                        Voluptatum dignissimos, nostrum eum amet quo vero id minima repellendus eveniet repudiandae quae libero aperiam nobis nesciunt cumque quibusdam praesentium deserunt magni voluptate, tempora earum at? Soluta quae excepturi dolorum!
-                        Ullam nobis tempora sed esse odit doloremque veritatis perspiciatis, molestias iusto, odio inventore quisquam quibusdam. Sint molestias maiores dolor veritatis mollitia atque magnam error maxime officiis, minus adipisci asperiores dignissimos!
+                        Этот проект представляет собой простую онлайн-магазинную платформу, реализующую базовый функционал для покупки товаров. Она включает каталог продуктов, корзину покупок и систему оформления заказа. Система создана с использованием современных веб-технологий и архитектуры, обеспечивая легкость в управлении состоянием и взаимодействии с данными.
+
+                        Ключевые особенности проекта:
+
+                        Каталог товаров: Пользователи могут просматривать различные товары в магазине. Каждый товар отображает основную информацию, такую как название, описание, цена и изображение. Для улучшения пользовательского опыта предусмотрены фильтры по категориям, что позволяет пользователю быстро находить товары, которые его интересуют.
+                        Корзина покупок: Каждый товар, выбранный пользователем, добавляется в корзину. В корзине отображаются все выбранные товары, а также их количество и стоимость. Пользователь может редактировать количество товаров или удалять их из корзины.
+                        Интеграция с FakeStoreAPI: Для получения информации о товарах используется внешняя FakeStoreAPI, которая предоставляет фейковые данные о продуктах. Это API включает в себя широкий ассортимент товаров, таких как одежда, электроника, аксессуары и многое другое, что делает проект функциональным и пригодным для демонстрации работы с внешними данными.
+                        Контекстное состояние (Context API): Для управления состоянием приложения используется Context API. Это позволяет централизованно управлять состоянием корзины и списка товаров, обеспечивая удобную передачу данных между компонентами без необходимости "прокидывать" их через каждый уровень.
+                        Типизация с TypeScript: Для обеспечения безопасности типов и улучшения читаемости кода, проект написан с использованием TypeScript. Типы данных для продуктов и корзины обеспечивают строгую проверку данных на всех этапах работы приложения, что минимизирует возможность возникновения ошибок.
+                        Фильтрация товаров: В каталоге предусмотрена возможность фильтрации товаров по категориям. Это позволяет пользователю быстро найти интересующие его товары и улучшает пользовательский интерфейс. Категории могут включать, например, "Одежда", "Электроника", "Аксессуары" и т.д.
                     </p>
+
                     <div className='project-utils'>
-                        <button style={{ backgroundColor: "rgb(14 17 22)" }} >Project Name</button>
-                        <button style={{ backgroundColor: "rgb(14 17 22)" }} className='Github'>Code Github</button>
+                        <button style={{ backgroundColor: "rgb(14 17 22)" }} >Shop Online</button>
+                        <button style={{ backgroundColor: "rgb(14 17 22)" }} className='Github' onClick={()=>Gotolink('https://github.com/astro12447/shop')}>Code Github</button>
                         <button  >HTML</button>
                         <button  >TypeScript</button>
                         <button  >React</button>
                         <button  >CSS</button>
+                        <button onClick={() => Gotolink('https://drive.google.com/file/d/1pTNmFvRVyTQy2AzPb1BoMdjkitiOE7_Y/view?usp=sharing')} style={{ cursor: "pointer" }}> PDF</button>
                     </div>
                 </div>
             </div>
