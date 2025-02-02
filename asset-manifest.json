@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/ismaportafolio/static/css/main.308a61fa.css",
-    "main.js": "/ismaportafolio/static/js/main.4fac4211.js",
+    "main.css": "/ismaportafolio/static/css/main.b1496924.css",
+    "main.js": "/ismaportafolio/static/js/main.7ed8102f.js",
     "static/media/hotel.png": "/ismaportafolio/static/media/hotel.4fa814555f99a396460e.png",
     "static/media/app-image.png": "/ismaportafolio/static/media/app-image.1ce08fba047a95e2fbf9.png",
+    "static/media/1shoppingCart.png": "/ismaportafolio/static/media/1shoppingCart.978fffe44c47b9410598.png",
     "static/media/dev-image.jpg": "/ismaportafolio/static/media/dev-image.bcf3769f3582656355c6.jpg",
     "static/media/sql.jpg": "/ismaportafolio/static/media/sql.a5302ac197d2de3520f0.jpg",
     "static/media/react.jpg": "/ismaportafolio/static/media/react.a47ef9d87b4f7099c0aa.jpg",
@@ -18,11 +19,11 @@
     "static/media/python.jpg": "/ismaportafolio/static/media/python.a139606b25cbc91345c5.jpg",
     "static/media/gmail.jpg": "/ismaportafolio/static/media/gmail.f781ff3e61f0497be6b4.jpg",
     "index.html": "/ismaportafolio/index.html",
-    "main.308a61fa.css.map": "/ismaportafolio/static/css/main.308a61fa.css.map",
-    "main.4fac4211.js.map": "/ismaportafolio/static/js/main.4fac4211.js.map"
+    "main.b1496924.css.map": "/ismaportafolio/static/css/main.b1496924.css.map",
+    "main.7ed8102f.js.map": "/ismaportafolio/static/js/main.7ed8102f.js.map"
   },
   "entrypoints": [
-    "static/css/main.308a61fa.css",
-    "static/js/main.4fac4211.js"
+    "static/css/main.b1496924.css",
+    "static/js/main.7ed8102f.js"
   ]
 }
