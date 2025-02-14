@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ismaportafolio/static/css/main.b1496924.css",
-    "main.js": "/ismaportafolio/static/js/main.7ed8102f.js",
+    "main.css": "/ismaportafolio/static/css/main.7f24661f.css",
+    "main.js": "/ismaportafolio/static/js/main.253a5858.js",
     "static/media/hotel.png": "/ismaportafolio/static/media/hotel.4fa814555f99a396460e.png",
     "static/media/app-image.png": "/ismaportafolio/static/media/app-image.1ce08fba047a95e2fbf9.png",
     "static/media/1shoppingCart.png": "/ismaportafolio/static/media/1shoppingCart.978fffe44c47b9410598.png",
@@ -19,11 +19,11 @@
     "static/media/python.jpg": "/ismaportafolio/static/media/python.a139606b25cbc91345c5.jpg",
     "static/media/gmail.jpg": "/ismaportafolio/static/media/gmail.f781ff3e61f0497be6b4.jpg",
     "index.html": "/ismaportafolio/index.html",
-    "main.b1496924.css.map": "/ismaportafolio/static/css/main.b1496924.css.map",
-    "main.7ed8102f.js.map": "/ismaportafolio/static/js/main.7ed8102f.js.map"
+    "main.7f24661f.css.map": "/ismaportafolio/static/css/main.7f24661f.css.map",
+    "main.253a5858.js.map": "/ismaportafolio/static/js/main.253a5858.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1496924.css",
-    "static/js/main.7ed8102f.js"
+    "static/css/main.7f24661f.css",
+    "static/js/main.253a5858.js"
   ]
 }
