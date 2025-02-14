@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ismaportafolio/static/css/main.7f24661f.css",
-    "main.js": "/ismaportafolio/static/js/main.253a5858.js",
+    "main.js": "/ismaportafolio/static/js/main.59110ec7.js",
     "static/media/hotel.png": "/ismaportafolio/static/media/hotel.4fa814555f99a396460e.png",
     "static/media/app-image.png": "/ismaportafolio/static/media/app-image.1ce08fba047a95e2fbf9.png",
     "static/media/1shoppingCart.png": "/ismaportafolio/static/media/1shoppingCart.978fffe44c47b9410598.png",
@@ -20,10 +20,10 @@
     "static/media/gmail.jpg": "/ismaportafolio/static/media/gmail.f781ff3e61f0497be6b4.jpg",
     "index.html": "/ismaportafolio/index.html",
     "main.7f24661f.css.map": "/ismaportafolio/static/css/main.7f24661f.css.map",
-    "main.253a5858.js.map": "/ismaportafolio/static/js/main.253a5858.js.map"
+    "main.59110ec7.js.map": "/ismaportafolio/static/js/main.59110ec7.js.map"
   },
   "entrypoints": [
     "static/css/main.7f24661f.css",
-    "static/js/main.253a5858.js"
+    "static/js/main.59110ec7.js"
   ]
 }
