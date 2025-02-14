@@ -41,7 +41,9 @@
    border:  1px solid aqua;
    cursor: pointer;
 }
-
+#pdf-link{
+    border: 1px solid aqua;
+}
 .project-item #shop-image{
     object-fit: cover ;
 }

@@ -184,7 +184,7 @@ export const Portafolio: React.FC = () => {
                         <button  >TypeScript</button>
                         <button  >React</button>
                         <button  >CSS</button>
-                        <button onClick={() => Gotolink('https://drive.google.com/file/d/1pTNmFvRVyTQy2AzPb1BoMdjkitiOE7_Y/view?usp=sharing')} style={{ cursor: "pointer" }}> PDF</button>
+                        <button onClick={() => Gotolink('https://drive.google.com/file/d/1pTNmFvRVyTQy2AzPb1BoMdjkitiOE7_Y/view?usp=sharing')} style={{ cursor: "pointer"}} id='pdf-link' > PDF</button>
                     </div>
                 </div>
             </div>
