@@ -4,6 +4,7 @@
     gap: 20px;
     padding-block: 34px;
     background-color: rgb(14 17 22);
+    align-items: center;
 }
 .logo-hero{
     grid-column: 2;
@@ -27,14 +28,16 @@
     grid-column: 4/5;
 }
 .navBarScroll button{
-    padding: 1em;
     border: 1px solid rgb(241 246 251);
     background-color: rgb(14 17 22);
     color: rgb(241 246 251);
     border-radius: 32px;
+    width: 110px;
+    height: 40px;
     cursor: pointer;
     text-align: center;
     font-size: 0.9em;
+    padding-block: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,6 +66,7 @@
     .navBarScroll {
         grid-template-columns: 4px repeat(6, calc((100% - 48px - 20px * 5) / 6)) 4px;
     }
+
     .logo-hero{
         grid-column: 2;
     }

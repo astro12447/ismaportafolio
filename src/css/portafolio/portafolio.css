@@ -3,7 +3,11 @@
     grid-template-columns: 4px repeat(3, calc((100% - 48px - 20px * 2) / 3)) 4px;
     gap: 20px;
 }
-
+.project-item{
+    padding: 1em;
+    background-color: rgb(14 17 22);
+    border-radius: 10px;
+}
 .portafolio .project-item button {
     display: block;
     text-decoration: none;
@@ -21,15 +25,15 @@
 .portafolio .project-item {
     grid-column: 2/5;
 }
+
 .project-item button{
     text-align: center;
     display: block;
-    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    border-radius: 32px;
     text-decoration: none;
     border: 1px solid hsl(210, 56%, 96%);
-    padding-inline: 7px;
-    padding-block: 14px;
-    width: 120px;
     color: hsl(210, 56%, 96%);
     background-color: rgb(14 17 22);
 }
@@ -37,18 +41,21 @@
    border:  1px solid aqua;
    cursor: pointer;
 }
+
+.project-item #shop-image{
+    object-fit: cover ;
+}
 .project-item .project-utils {
     border-radius: 14px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items:center;
     gap: 14px;
 }
 
 .project-item p {
-    padding-block: 24px;
+    padding-block: 10px;
 }
 
 .portafolio h2 {
@@ -63,12 +70,12 @@
     color: hsl(210, 56%, 96%);
 }
 
-.project-item img {
+.project-item img{
     display: block;
     max-width: 100%;
     object-fit: cover;
     height: auto;
-}
+} 
 
 .portafolio p {
     color: hsl(270, 4%, 61%);
@@ -77,6 +84,11 @@
 .portafolio {
     padding-inline: auto;
 }
+@media(max-width: 89.9375em){
+   h1{
+     padding-block-start:20px;
+   }
+}
 @media(width >=90em) {
     .project-item {
         display: flex;
@@ -84,9 +96,10 @@
         gap: 20px;
     }
 
-    .project-item img {
+    .project-item img{
         display: block;
         width: 500px;
+        height: auto;
         object-fit:contain;
         height: auto;
     }
