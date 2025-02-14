@@ -16,12 +16,12 @@ export const Portafolio: React.FC = () => {
                 <div style={{ display: "flex", flexDirection: "column", justifyContent:"center"}}>
                     <div style={{ color: "hsl(270, 4%, 61%)" }} className='description-content-shopping-cart'>
                             <h1 style={{ color: "white"}}>Shopping cart</h1>
-                        <ol className='shopping-cart-list-items' style={{paddingInlineStart:"1em"}}>
                             <p className='project-description'>
                                 Это приложение, разработанное с использованием React и TypeScript, представляет собой онлайн-магазин
                                 с функциональностью корзины покупок. Оно позволяет пользователям просматривать товары и управлять своими
                                 заказами. Приложение состоит из двух основных страниц: <br />
                             </p>
+                        <ol className='shopping-cart-list-items' style={{paddingInlineStart:"1em"}}>
                             <li >Главная страница:
                                 <div>
                                     На этой странице отображается список всех доступных товаров. Пользователи могут просматривать
