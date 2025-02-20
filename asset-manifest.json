@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ismaportafolio/static/css/main.945ce9e1.css",
+    "main.css": "/ismaportafolio/static/css/main.66cdad43.css",
     "main.js": "/ismaportafolio/static/js/main.e8253581.js",
     "static/media/hotel.png": "/ismaportafolio/static/media/hotel.4fa814555f99a396460e.png",
     "static/media/app-image.png": "/ismaportafolio/static/media/app-image.1ce08fba047a95e2fbf9.png",
@@ -19,11 +19,11 @@
     "static/media/python.jpg": "/ismaportafolio/static/media/python.a139606b25cbc91345c5.jpg",
     "static/media/gmail.jpg": "/ismaportafolio/static/media/gmail.f781ff3e61f0497be6b4.jpg",
     "index.html": "/ismaportafolio/index.html",
-    "main.945ce9e1.css.map": "/ismaportafolio/static/css/main.945ce9e1.css.map",
+    "main.66cdad43.css.map": "/ismaportafolio/static/css/main.66cdad43.css.map",
     "main.e8253581.js.map": "/ismaportafolio/static/js/main.e8253581.js.map"
   },
   "entrypoints": [
-    "static/css/main.945ce9e1.css",
+    "static/css/main.66cdad43.css",
     "static/js/main.e8253581.js"
   ]
 }
